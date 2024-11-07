@@ -1,4 +1,4 @@
-import { Lang } from "src/types/lang.type";
+import { Lang } from "@/types/lang.type";
 
 export type NlbResponse<T, Data extends string> = Record<Data, T[]>;
 

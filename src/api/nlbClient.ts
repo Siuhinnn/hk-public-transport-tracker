@@ -1,5 +1,5 @@
-import { NLB_ENDPOINT } from "src/assets/constant";
-import { creatAxiosClient } from "src/lib/apiClient";
+import { NLB_ENDPOINT } from "@/assets/constant";
+import { creatAxiosClient } from "@/lib/axiosClient";
 
 const nlbClient = creatAxiosClient(NLB_ENDPOINT);
 
